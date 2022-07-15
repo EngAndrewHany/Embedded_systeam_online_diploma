@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 15, 2022
+ *      Author: Andrew Hany
+ */
+#include <stdio.h>
+
+void main ()
+{
+	char c ;
+	printf ("Enter a Character: ");
+	fflush(stdout);
+	scanf ("%c" , &c);
+	fflush(stdout);
+	printf ("ASCII Valur of %c = %d" , c , c);
+}

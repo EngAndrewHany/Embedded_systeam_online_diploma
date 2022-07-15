@@ -1,0 +1,344 @@
+17:45:54 **** Rebuild of configuration Debug for project ex 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o "ex 1.exe" main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+17:47:55 **** Incremental Build of configuration Debug for project ex 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex 1.exe" main.o 
+Info: Nothing to build for ex 1
+17:48:22 **** Incremental Build of configuration Debug for project ex 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:8: warning: 'return' with a value, in function returning void
+ return 0;
+        ^
+..\main.c:10:6: note: declared here
+ void main ()
+      ^~~~
+gcc -o "ex 1.exe" main.o 
+17:52:21 **** Incremental Build of configuration Debug for project ex 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:9: warning: 'return' with a value, in function returning void
+  return 0;
+         ^
+..\main.c:10:6: note: declared here
+ void main ()
+      ^~~~
+gcc -o "ex 1.exe" main.o 
+Info: Nothing to build for ex 1
+Info: Nothing to build for ex 1
+18:00:16 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+18:00:47 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+18:07:55 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d", x, y);
+           ^
+..\main.c:15:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d", x, y);
+              ^
+..\main.c:15:2: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+  scanf ("%d %d", x, y);
+  ^~~~~~~~~~~~~~~~~~~~~
+..\main.c:15:2: warning: 'y' is used uninitialized in this function [-Wuninitialized]
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+18:09:31 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex3.exe main.o 
+18:09:50 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex3.exe main.o 
+18:10:12 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:15:47 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+18:16:30 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+  scanf ("%f %f", &x , &y);
+           ^
+..\main.c:14:14: warning: format '%f' expects argument of type 'float *', but argument 3 has type 'int *' [-Wformat=]
+  scanf ("%f %f", &x , &y);
+              ^
+..\main.c:16:24: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+  printf ("Product is: %f", x*y);
+                        ^
+gcc -o ex4.exe main.o 
+18:16:59 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+18:21:34 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:9: warning: 'return' with a value, in function returning void
+  return 0;
+         ^
+..\main.c:10:6: note: declared here
+ void main ()
+      ^~~~
+gcc -o ex1.exe main.o 
+18:21:49 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:25:41 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:25:41 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:31:57 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex5
+18:31:58 **** Rebuild of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+18:32:31 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex6.exe main.o 
+18:33:04 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex6.exe main.o 
+18:42:52 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+18:47:23 **** Rebuild of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+18:48:35 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:20:2: warning: implicit declaration of function 'swap' [-Wimplicit-function-declaration]
+  swap (a,b);
+  ^~~~
+gcc -o ex7.exe main.o 
+main.o: In function `main':
+F:\Andrew\Embedded\embedded_system_online_diploma\C  programming\Assignments\Assignment 1\ex7\Debug/../main.c:20: undefined reference to `swap'
+collect2.exe: error: ld returned 1 exit status
+18:48:38 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -o ex7.exe main.o 
+main.o: In function `main':
+F:\Andrew\Embedded\embedded_system_online_diploma\C  programming\Assignments\Assignment 1\ex7\Debug/../main.c:20: undefined reference to `swap'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+18:53:23 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+18:56:55 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex7.exe main.o 
+19:00:55 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+19:04:12 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:16:9: warning: 'return' with a value, in function returning void
+  return 0;
+         ^
+..\main.c:10:6: note: declared here
+ void main ()
+      ^~~~
+gcc -o ex1.exe main.o 
+19:05:15 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex2.exe main.o 
+19:06:31 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex3.exe main.o 
+19:07:28 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex4.exe main.o 
+19:09:44 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex5.exe main.o 
+19:14:10 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex6.exe main.o 

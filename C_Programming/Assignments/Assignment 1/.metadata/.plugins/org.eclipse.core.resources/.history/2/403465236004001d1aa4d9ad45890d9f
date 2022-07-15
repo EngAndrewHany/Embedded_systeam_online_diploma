@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 15, 2022
+ *      Author: Andrew Hany
+ */
+
+#include <stdio.h>
+
+void main ()
+{
+
+	printf ("C Programming \n");
+
+	return 0;
+}
+
