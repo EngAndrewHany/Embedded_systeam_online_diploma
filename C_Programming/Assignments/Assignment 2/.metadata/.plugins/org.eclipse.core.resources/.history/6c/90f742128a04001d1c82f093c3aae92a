@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 15, 2022
+ *      Author: Andrew Hany
+ */
+#include <stdio.h>
+
+void main()
+{
+	//user enter integer number
+	int num,sum,index;
+	printf("Enter an integer: ");
+	fflush(stdout);
+	scanf("%d", &num);
+
+	//calculate the sum of natural naumbers from 1 to num
+	for ( index=1 ; index<= num ; index++)
+	{
+		sum+=index;
+		printf("sum = %d",sum);
+	}
+}
+
