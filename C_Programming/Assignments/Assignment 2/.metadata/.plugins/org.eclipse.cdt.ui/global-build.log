@@ -1128,3 +1128,220 @@ Info: Nothing to build for ex8
 Info: Nothing to build for ex8
 Info: Nothing to build for ex8
 Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+02:46:48 **** Rebuild of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o quis.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+02:46:54 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o quis.exe main.o 
+Info: Nothing to build for quis
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+02:52:29 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:34: error: 'a' undeclared (first use in this function)
+ printf ("%d %d %f %f", 2%-8 ,l , a ,b);
+                                  ^
+..\main.c:14:34: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:14:37: error: 'b' undeclared (first use in this function)
+ printf ("%d %d %f %f", 2%-8 ,l , a ,b);
+                                     ^
+..\main.c:12:18: warning: unused variable 'k' [-Wunused-variable]
+  int i =2, j =3 ,k ,l;
+                  ^
+..\main.c:12:12: warning: unused variable 'j' [-Wunused-variable]
+  int i =2, j =3 ,k ,l;
+            ^
+..\main.c:12:6: warning: unused variable 'i' [-Wunused-variable]
+  int i =2, j =3 ,k ,l;
+      ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+02:53:14 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:12: error: invalid type argument of unary '*' (have 'int')
+  int i = 2%*8;
+            ^~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+02:53:36 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o quis.exe main.o 
+Info: Nothing to build for quis
+Info: Nothing to build for quis
+02:53:58 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o quis.exe main.o 
+Info: Nothing to build for quis
+02:54:06 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o quis.exe main.o 
+02:54:14 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o quis.exe main.o 
+Info: Nothing to build for quis
+02:54:25 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o quis.exe main.o 
+02:55:39 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o quis.exe main.o 
+03:06:43 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:12: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  int i = (1,2,3);
+            ^
+..\main.c:12:14: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  int i = (1,2,3);
+              ^
+gcc -o quis.exe main.o 
+03:09:20 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:12: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  int i = (1,2,3);
+            ^
+..\main.c:12:14: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  int i = (1,2,3);
+              ^
+..\main.c:14:10: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+ if (13>12>11)
+          ^
+gcc -o quis.exe main.o 
+Info: Nothing to build for quis
+Info: Nothing to build for quis
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+03:09:33 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:14:10: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+ if (13>12>11)
+          ^
+gcc -o quis.exe main.o 
+Info: Nothing to build for quis
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+03:35:55 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:26: warning: operation on 'i' may be undefined [-Wsequence-point]
+  printf ("%d %d", ++i , i++);
+                         ~^~
+gcc -o quis.exe main.o 
+Info: Nothing to build for quis
+03:36:20 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:26: warning: operation on 'i' may be undefined [-Wsequence-point]
+  printf ("%d %d", ++i , i++);
+                         ~^~
+gcc -o quis.exe main.o 

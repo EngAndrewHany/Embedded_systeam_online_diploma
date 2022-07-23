@@ -1,0 +1,14 @@
+03:36:20 **** Incremental Build of configuration Debug for project quis ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:26: warning: operation on 'i' may be undefined [-Wsequence-point]
+  printf ("%d %d", ++i , i++);
+                         ~^~
+gcc -o quis.exe main.o 
+
+03:36:21 Build Finished (took 504ms)
+

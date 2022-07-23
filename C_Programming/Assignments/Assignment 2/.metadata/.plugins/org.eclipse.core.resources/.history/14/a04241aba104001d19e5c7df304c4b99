@@ -1,0 +1,15 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 16, 2022
+ *      Author: Andrew Hany
+ */
+
+#include <stdio.h>
+
+void main ()
+{
+	int i;
+
+printf ("%d ", 2%-8);
+}
